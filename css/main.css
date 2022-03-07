@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family:inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  .bosh{
+      background: url(../img/BG-Header.png) center/cover no-repeat;
+      height: 1080px;
+
+  }
+  .logo{
+     
+  }
+  .clear {
+      text-align: center;
+}
+.bir {
+    font-size: 34px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+    margin-bottom: 18px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.ikki {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    word-spacing: 10px;
+    display: inline-block;
+    padding-bottom: 47px;
+}
+.read{
+    color: #ffffff;
+    margin-top: 230px;
+    font-size: 16px;
+    border: 1px solid white;
+    display: block;
+    padding: 20px;
+    width: 185px;
+    text-align: center;
+}
+.animation{
+    
+    animation-name: www;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes www {
+    0%{left: 0px; top: 0px;}
+    100%{left: 0px; top: 15px;}
+}
+.menu{
+    word-spacing: 35px;
+    color: #3c3c3c;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+
+}
